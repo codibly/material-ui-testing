@@ -1,0 +1,9 @@
+{
+  "generator-codibly-ts": {
+    "name": "@codibly/material-ui-testing",
+    "description": "Common queries for the Material UI testing by React Testing Library",
+    "version": "0.0.0-semantic-release",
+    "repository": "git@github.com:codibly/material-ui-testing.git",
+    "author": "Piotr Oleś <piotr.oles@codibly.com>"
+  }
+}
