@@ -10,3 +10,12 @@ script:
   - yarn build
   - yarn test
   - yarn lint
+
+deploy:
+  provider: script
+  skip_cleanup: true
+  script:
+    - yarn exec semantic-release
+  on:
+    all_branches: true
+    node_js: 10
